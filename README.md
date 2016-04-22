@@ -1,10 +1,7 @@
 # AMD
 Repository for CDC's Office of Advanced Molecular Detection 
 
-## Repository Template
-This Github organization was created for use by [CDC](http://www.cdc.gov) programs to collaborate on public health surveillance-related projects in support of the [CDC Surveillance Strategy](http://www.cdc.gov/surveillance). This third-party web application is not hosted by CDC, but it is used by CDC and its partners to share information and collaborate on software. 
-
-This repository serves as a template for other repositories to follow in order to provide the appropriate notices for users in regards to privacy protection, contribution, licensing, copyright, records management and collaboration.
+This Github repository was created for use by [CDC](http://www.cdc.gov) programs to collaborate on public health surveillance-related projects in support of the [CDC Surveillance Strategy](http://www.cdc.gov/surveillance). This third-party web application is not hosted by CDC, but it is used by CDC and its partners to share information and collaborate on software. 
 
 ### Public Domain
 This project constitutes a work of the United States government and is not subject to domestic copyright protection under 17 USC § 105. This project is in the public domain within the United States, and copyright related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zerio/1.0/). All contributions to this project will be released under the CC0 dedication. By submitting a pull request you are agreeing to comply with this waiver of copyright interest. 
