@@ -12,7 +12,7 @@
 
 import sys
 import numpy as np
-np.set_printoptions(threshold='nan')
+np.set_printoptions(threshold=sys.maxsize)
 from Bio import SeqIO
 
 
@@ -40,7 +40,7 @@ BED_file = sys.argv[2]
 def getfasta(file):
 	fasta_sequences = SeqIO.parse(open(file),'fasta')
 	for fasta in fasta_sequences:
-		name, sequence = fasta.id, fasta.seq.tostring()
+		name, sequence = fasta.id, str(fasta.seq)
 			
 		fasta_length = len(sequence)			
 		length_array = np.zeros(len(sequence), dtype=np.int8)		#Creates an array of zeros the length of the input reference sequence	
